@@ -49,7 +49,7 @@ With this setup, I will have an IAM user assuming an IAM role that can assume an
 
 ### IAM User Policy
 
-```
+```javascript
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -69,7 +69,7 @@ With this setup, I will have an IAM user assuming an IAM role that can assume an
 
 Attached Policy:
 
-```
+```javascript
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -84,7 +84,7 @@ Attached Policy:
 
 Trust Policy:
 
-```
+```javascript
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -104,7 +104,7 @@ Trust Policy:
 
 Managed Policy: AmazonS3FullAccess
 
-```
+```javascript
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -119,7 +119,7 @@ Managed Policy: AmazonS3FullAccess
 
 Trust Policy:
 
-```
+```javascript
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -139,7 +139,7 @@ Trust Policy:
 ### Bucket Policy
 
 
-```
+```javascript
 {
     "Version": "2012-10-17",
     "Statement": [
